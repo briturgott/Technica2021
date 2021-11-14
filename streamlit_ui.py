@@ -16,6 +16,7 @@ if st.button('Update'):
 data = json.load(post_list)
 
 curated_post_list = []
+print(data)
 for post in data:
     curated_post = {}
     curated_post["Title"] = post["title"]
