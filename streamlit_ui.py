@@ -21,7 +21,6 @@ for post in data:
     curated_post = {}
     curated_post["Title"] = post["title"]
     curated_post["Subreddit"] = post["subreddit"]
-    curated_post["Username"] = post["author"]
     curated_post["Positivity"] = post["compound"] #this is where we add the scores
     curated_post_list.append(curated_post)
 
