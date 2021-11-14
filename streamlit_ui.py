@@ -7,7 +7,7 @@ st.title("Welcome to Sage Social!")
 
 st.write("Here is your Reddit profile. You can see what posts you have recently seen, and their positivity score.")
 
-post_list = open('worldnews_subreddit.json')
+post_list = open('home_page2.json')
 
 if st.button('Update'):
     main.main();
