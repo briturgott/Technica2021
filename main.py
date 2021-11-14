@@ -1,5 +1,6 @@
 import topPosts
 import sentiment
 
-topPosts.web_scrape()
-sentiment.analysis()
+def main():
+    topPosts.web_scrape()
+    sentiment.analysis()
